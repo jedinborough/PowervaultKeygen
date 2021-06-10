@@ -34,7 +34,6 @@ namespace DellPowerVaultFeatureKeygen
                     license.Features.Add(new Feature(featureEnableId, Capability.PhysicalDiskSlots192));
                     license.Features.Add(new Feature(featureEnableId, Capability.Snapshot, 256));
                     license.Features.Add(new Feature(featureEnableId, Capability.SsdSupport));
-
                     license.Features.Add(new Feature(featureEnableId, Capability.RemoteMirroring));
 
                     license.Save(sfd.FileName);
