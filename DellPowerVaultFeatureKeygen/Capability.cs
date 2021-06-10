@@ -33,6 +33,16 @@
         /// <summary>
         /// Snapshot
         /// </summary>
-        Snapshot = 110
+        Snapshot = 110,
+
+        /// <summary>
+        /// SsdSupport (up to 192)
+        /// </summary>
+        SsdSupport = 38,
+
+        /// <summary
+        /// Remote Mirroring
+        /// </summary>
+        RemoteMirroring = 13
     }
 }
